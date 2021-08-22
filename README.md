@@ -175,7 +175,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [node-js-add-ons]: https://nodejs.org/api/addons.html
 
-[webassembly]: http://webassembly.org/
+[webassembly]: https://webassembly.org/
 
 </section>
 
