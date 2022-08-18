@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-function": "^0.0.x",
+    "@stdlib/function-to-string": "^0.0.x",
     "@stdlib/regexp-native-function": "^0.0.x"
   },
   "devDependencies": {
