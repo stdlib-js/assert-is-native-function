@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/assert-is-function": "^0.0.8",
     "@stdlib/function-to-string": "^0.0.1",
-    "@stdlib/regexp-native-function": "^0.0.8"
+    "@stdlib/regexp-native-function": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.0.8",
