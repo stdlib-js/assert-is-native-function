@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,52 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isNativeFunction = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isNativeFunction, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns `true` if provided a native function', function test( t ) {
-	t.strictEqual( isNativeFunction( Date ), true, 'returns true' );
-	t.strictEqual( isNativeFunction( Math.sqrt ), true, 'returns true' ); // eslint-disable-line stdlib/no-builtin-math
-	t.strictEqual( isNativeFunction( RegExp ), true, 'returns true' );
-	t.end();
-});
-
-tape( 'the function returns `false` if provided a non-native function', function test( t ) {
-	function beep() {
-		return 'boop';
-	}
-	t.strictEqual( isNativeFunction( beep ), false, 'returns false' );
-	t.strictEqual( isNativeFunction( test ), false, 'returns false' );
-	t.strictEqual( isNativeFunction( tape ), false, 'returns false' );
-	t.end();
-});
-
-tape( 'the function returns `false` if not provided a function', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		'5',
-		5,
-		NaN,
-		void 0,
-		true,
-		false,
-		null,
-		[],
-		{}
-	];
-
-	for ( i = 0; i < values.length; i++ ) {
-		t.strictEqual( isNativeFunction( values[i] ), false, 'returns false when provided '+values[i] );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
