@@ -50,7 +50,7 @@ Native functions execute native code that is typically not written in JavaScript
 ## Usage
 
 ```javascript
-import isNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-native-function@esm/index.mjs';
+import isNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-native-function@v0.2.0-esm/index.mjs';
 ```
 
 #### isNativeFunction( value )
@@ -87,7 +87,7 @@ bool = isNativeFunction( beep );
 <body>
 <script type="module">
 
-import isNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-native-function@esm/index.mjs';
+import isNativeFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-native-function@v0.2.0-esm/index.mjs';
 
 var bool = isNativeFunction( Math.sqrt );
 // returns true
