@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-native-function",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Test if a value is a native function.",
   "license": "Apache-2.0",
   "author": {
@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/function-to-string": "^0.2.1",
-    "@stdlib/regexp-native-function": "^0.2.1"
+    "@stdlib/function-to-string": "^0.2.2",
+    "@stdlib/regexp-native-function": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.1",
